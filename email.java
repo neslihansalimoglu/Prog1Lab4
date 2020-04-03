@@ -1,4 +1,5 @@
 import java.util.*;
+/* This program is used to validate email addresses*/
 
 public class email{
 	public static void main(String[] args) {
