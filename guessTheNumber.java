@@ -1,4 +1,7 @@
 import java.util.*;
+/*It generates a random number between 0 and 100 and asks the user to guess it. The user can have at maximum 10 trials. 
+If the number is guessed, the user should be asked if she/he wants to play again.
+If the number is not guessed and 10 trials were used, the user is not lucky, the program should terminate with a proper message.*/
 
 public class guessTheNumber{
 	public static void main(String[] args) {
@@ -18,13 +21,13 @@ public class guessTheNumber{
 			System.out.println("Wow, You gueesed the number. Do you wanna play again?");
 			String play = sc.nextLine();
 
-			if(play == yes){
+		if(play == yes){
 				System.out.println("Welcome back. Lets play again. Enter your guess");
 				int randomInteger;
 				int guess;
-			} 
-				else
-					System.out.println("So sad. Goodbye.");
+		} 
+			else
+			System.out.println("So sad. Goodbye.");
 
 		} 
 		else if (randomInteger != randomInteger){ 
